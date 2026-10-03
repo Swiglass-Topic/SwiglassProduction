@@ -29,5 +29,5 @@ async def on_message(message):
     await bot.process_commands(message)
 
 # Run the bot using your unique token
-bot.run("MTU1NTI3OTA3NTAxMzMwNDU0Mg.GLrYxk.-wyt3y8tceaaHecCpp5B5QThwCFePp0DwV0T7Y")
+bot.run("MTU1NTI3OTA3NTAxMzMwNDU0Mg.GvkEF4.0uUpJjqqNkgCKnVEGksJXZNS-9rgaBb_7Px7yk")
 
