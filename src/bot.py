@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 # Load hidden environment variables (for local testing)
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = os.getenv('MTU1NTI3OTA3NTAxMzMwNDU0Mg.GIWM_4.9N_Yzw_3FI3gf0SkOx_I3LhohTKdLUY1149Gmw')
 
 # Enable message content permissions
 intents = discord.Intents.default()
