@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         name: "Producing", // required by Discord API, not shown in the client
-        state: "SwiglassEldjazair",     // this is what people actually see
+        state: ".",     // this is what people actually see
         type: 1,               // Custom
       },
     ],
@@ -645,5 +645,7 @@ export function getRandomColor() {
   const colors = Object.values(botConfig.embeds.colors).flatMap((color) =>
     typeof color === "string" ? color : Object.values(color),
   );
-  return colors[Math.floor(Math.random() * colors.length)];}});
+  return colors[Math.floor(Math.random() * colors.length)];
+}
+
 export default botConfig;
