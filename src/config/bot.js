@@ -647,13 +647,5 @@ export function getRandomColor() {
   );
   return colors[Math.floor(Math.random() * colors.length)];
 }
-client.on('messageCreate', async (message) => {
-    if (message.author.bot) return;
-
-    const YOUR_USER_ID = '496387709418471435';
-
-    if (message.mentions.has(496387709418471435)) {
-        await message.reply('Achkek Mon Traitement');
-    }
 });
 export default botConfig;
